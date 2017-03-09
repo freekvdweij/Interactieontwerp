@@ -3,14 +3,7 @@
 <head>
 	<title>Portfolio</title>
 	<style>
-	body {
-	background-color: #00BFFF ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-	width: 100%;
-    height: 100%;
-  }
+
 	div{
 	margin-left: 5%;
  	margin-right: 5%;	
@@ -18,11 +11,28 @@
   
  </style>
 </head>
-<script src="http://www.w3schools.com/lib/w3data.js"></script>
 
 <body >
-<div w3-include-html="freekvdweij.github.io/Interactieontwerp/header.html"></div> 
- <h1> Freek van der Weij </h1>
+  <div class="nav nav_wrapper">
+    <ul style="top: 15px; left: 20px;">
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href = "portfolio.html"> Portfolio</a>
+      <ul class="content">
+		<li>
+			<a href='individualprojects.php'>Individueel werk</a>
+		</li>						
+		<li>
+			<a href='groupprojects.php'>Groepsopdrachten</a>
+		</li>						
+		<li>
+			<a href="draftspage.php">Eindproject: Tinker</a>
+    		</li>	
+	</ul>
+        </li>
+        <li><a href="overmij.html">Over mij</a></li>	
+    </ul>
+  </div>
 
 <div style="float:left; width:40%;">
 	<span>	
@@ -39,9 +49,7 @@
 	</span>
 </div>
   
-<script>
-w3IncludeHTML();
-</script>
+
   
   
 </body>
