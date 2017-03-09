@@ -92,3 +92,16 @@ text-decoration: none;
 .nav div{
     font-size: 28px;
 }
+
+.margin{
+margin-top: 100px;
+}
+
+.opdracht{
+float:left; 
+width:40%;
+}
+
+.box{
+background-color: rgba(255, 255, 255, .65);
+}
