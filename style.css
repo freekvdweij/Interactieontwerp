@@ -34,6 +34,10 @@ margin-top: 100px;
 	font-size: 2.5em;
 
 }
+.a{
+color: #000000;
+text-decoration: none;
+}
 /*NAVIGATION BAR*/
 .nav_wrapper{
     width:960px;
