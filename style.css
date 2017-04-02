@@ -120,3 +120,7 @@ img.center {
     display: block;
     margin: 0 auto;
 }
+.download{
+	float:left; 
+	margin: 10px;
+}
